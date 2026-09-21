@@ -3,13 +3,9 @@
 # Exercise 1
 def count_characters(text):
     print(len(text))
-    pass
-    
 # Exercise 2
 def remove_spaces(text):
     print(text.replace(" ", ""))
-    pass
-
 # Exercise 3
 def count_vowels(text):
     # Write your code here
