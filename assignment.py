@@ -2,7 +2,7 @@
 
 # Exercise 1
 def count_characters(text):
-    # Write your code here
+print(len(text))
     pass
 
 # Exercise 2
