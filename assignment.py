@@ -7,8 +7,7 @@ def count_characters(text):
     
 # Exercise 2
 def remove_spaces(text):
-    result = text.replace(" ", "")
-    print(result)
+    print(text.replace(" ", ""))
     pass
 
 # Exercise 3
