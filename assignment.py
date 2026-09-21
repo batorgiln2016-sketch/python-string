@@ -7,7 +7,9 @@ print(len(text))
 
 # Exercise 2
 def remove_spaces(text):
-    # Write your code here
+text = "Python is fun"
+result = text.replace(" ", "")
+print(result)
     pass
 
 # Exercise 3
