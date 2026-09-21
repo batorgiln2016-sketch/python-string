@@ -4,7 +4,7 @@
 def count_characters(text):
     print(len(text))
     pass
-
+    
 # Exercise 2
 def remove_spaces(text):
     result = text.replace(" ", "")
