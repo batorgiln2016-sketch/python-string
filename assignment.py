@@ -3,25 +3,31 @@
 # Exercise 1
 def count_characters(text):
     print(len(text))
+
+
 # Exercise 2
 def remove_spaces(text):
     print(text.replace(" ", ""))
+
+
 # Exercise 3
 def count_vowels(text):
-    # Write your code here
-    pass
+    print(sum(text.lower().count(vowel) for vowel in "aeiou"))
+
 
 # Exercise 4
 def replace_vowels(text):
-    # Write your code here
-    pass
+    vowels = "aeiouAEIOU"
+    print("".join("*" if char in vowels else char for char in text))
+
 
 # Exercise 5
 def count_words(text):
-    # Write your code here
-    pass
+    words = text.split()
+    print(len(words))
+
 
 # Exercise 6
 def find_longest_word(text):
-    # Write your code here
-    pass
+    words = text.split()
+    print(max(words, key=len) if words else "")
