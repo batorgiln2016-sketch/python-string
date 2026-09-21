@@ -34,4 +34,8 @@ def count_words(text):
 # Exercise 6
 def find_longest_word(text):
     words = text.split()
-    return max(words, key=len) if words else ""
+    longest_word = ""
+    for word in words:
+        if len(word) > len(longest_word):
+            longest_word = word
+    return longest_word
